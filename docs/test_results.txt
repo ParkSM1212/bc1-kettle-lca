@@ -1,0 +1,21 @@
+Executed 2026-10-08 (Asia/Seoul)
+Python 3.12.14
+Command: python -m unittest discover -s tests -v
+
+test_ambiguous_provider_not_arbitrarily_selected (test_audit.GraphTests.test_ambiguous_provider_not_arbitrarily_selected) ... ok
+test_avoided_output_is_not_ignored (test_audit.GraphTests.test_avoided_output_is_not_ignored) ... ok
+test_coproduct_is_review_not_invalid_provider (test_audit.GraphTests.test_coproduct_is_review_not_invalid_provider) ... ok
+test_cycle_terminates_and_missing_emissions_remain_pending (test_audit.GraphTests.test_cycle_terminates_and_missing_emissions_remain_pending) ... ok
+test_explicit_missing_not_replaced_by_candidate (test_audit.GraphTests.test_explicit_missing_not_replaced_by_candidate) ... ok
+test_v2_reference_schema (test_audit.GraphTests.test_v2_reference_schema) ... ok
+test_waste_direction (test_audit.GraphTests.test_waste_direction) ... ok
+test_bad_bom_is_rejected (test_audit.InventoryTests.test_bad_bom_is_rejected) ... ok
+test_independent_mass_controls (test_audit.InventoryTests.test_independent_mass_controls) ... ok
+test_invalid_yields (test_audit.InventoryTests.test_invalid_yields) ... ok
+test_missing_yield_is_not_zero (test_audit.InventoryTests.test_missing_yield_is_not_zero) ... ok
+test_purchase_mass_and_scrap (test_audit.InventoryTests.test_purchase_mass_and_scrap) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.008s
+
+OK

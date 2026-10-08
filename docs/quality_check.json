@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-08",
+  "test_suite": "12 tests passed; docs/test_results.txt",
+  "reproduction": "16 data/figure outputs byte-identical; HTML identical except location-dependent README link",
+  "overwrite_protection": "passed; nonempty output directory rejected",
+  "cached_source_verification": "passed",
+  "browser_visual_review": "Report opened in Codex in-app browser; title, mass cards, explicit GWP100 unavailable notice, and chart visually inspected.",
+  "local_links": "36 local documentation/report links checked successfully",
+  "limitations": "No LCA solver, characterization, complete provider closure or independently human-reviewed GWP result."
+}

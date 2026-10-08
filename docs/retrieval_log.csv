@@ -1,0 +1,11 @@
+﻿event,source,status,detail,date
+requirements,user-provided readme-requirements.md,read_success,10-section requirements used as artifact specification; external submission not performed,2026-10-08
+official_links,User-provided GitHub and LCA Commons URLs,read_success,Read through web tool on 2026-10-08,2026-10-08
+shell_network,Public GitHub/USLCI downloads,initially_blocked,Network permission requested and granted,2026-10-08
+PowerShell_TLS,Public GitHub/USLCI downloads,TLS_error,Switched to Python urllib with default certificate verification; succeeded,2026-10-08
+USLCI_search_trailing_slash,https://api.nal.usda.gov/FederalLCACommonsapi/search/,HTTP_404,No hit count inferred,2026-10-08
+USLCI_search,https://api.nal.usda.gov/FederalLCACommonsapi/search,HTTP_200_then_429,Some exploratory requests succeeded; rate-limited requests not treated as no matches; final search used full local archive,2026-10-08
+USLCI_prepare,https://api.nal.usda.gov/FederalLCACommonsapi/download/json/prepare/National_Renewable_Energy_Laboratory/USLCI_Database_Public,HTTP_200,110-byte plain text descriptor; not the JSON object shown by guide,2026-10-08
+USLCI_download,https://api.nal.usda.gov/FederalLCACommonsapi/download/json/,HTTP_200,32056606 bytes; descriptor and SHA-256 recorded in source_manifest.json,2026-10-08
+local_search,Pinned USLCI archive,complete,1434 process entities searched; no network paging in final results,2026-10-08
+npm_metadata,https://registry.npmjs.org/@tiangong-lca%2fcli/latest,HTTP_200,0.1.27 metadata inspected; package not installed and authentication not run,2026-10-08
