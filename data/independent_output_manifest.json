@@ -1,0 +1,90 @@
+{
+  "run_id": "bc1-uslci-independent-20261008",
+  "files": [
+    {
+      "path": "results/independent/boundary_evidence.csv",
+      "sha256": "b875c47f28a0cdbcc1a1a6a0a35824d10e369d6b355fc80d9d8ee1a33d117c25",
+      "bytes": 2374
+    },
+    {
+      "path": "results/independent/checks.csv",
+      "sha256": "e72a7acbbbd668b8bb28d006c51fd8f93fc59819d6ae2112d928adcade16701c",
+      "bytes": 834
+    },
+    {
+      "path": "results/independent/contributions.csv",
+      "sha256": "d596323a051b0398582b35c04cc1d02a6739e7d0105d3d0ba4ead45888e0a25f",
+      "bytes": 761
+    },
+    {
+      "path": "results/independent/elementary_flows_pending.csv",
+      "sha256": "9629d2411123c696dc94495dde95be6fa79276a6c835baeb156d79381c519e73",
+      "bytes": 371514
+    },
+    {
+      "path": "results/independent/inventory.csv",
+      "sha256": "b9bd29ba86e92e4ee8b8d271cadb95496b6b265318baa9401f415d73ccd4ec90",
+      "bytes": 985
+    },
+    {
+      "path": "results/independent/mapping.csv",
+      "sha256": "69f9cfb6494abbd556d0e8904c1bca761c9cb6749fdf686ef9f72cf4c07c302b",
+      "bytes": 10037
+    },
+    {
+      "path": "results/independent/mass_breakdown.svg",
+      "sha256": "bf7ddab6b46cc5f630ed42ea14fed3c9f15274c470a4c9a84d11fe224aaa3be3",
+      "bytes": 2887
+    },
+    {
+      "path": "results/independent/mass_sensitivity.csv",
+      "sha256": "882ded9960705df4135293b932895422f08c2a69ff999cdb03bfead00233af23",
+      "bytes": 796
+    },
+    {
+      "path": "results/independent/model_flags.csv",
+      "sha256": "42446a2341c1ea500caccd7aeb4f1198a881127ffd033af722b69e2abb9ec224",
+      "bytes": 450941
+    },
+    {
+      "path": "results/independent/monetary_bridge_review.csv",
+      "sha256": "5cc9d1749e6436caef259ab1d1f2c23cddbb1185d92bafe09bdd6af5dad71965",
+      "bytes": 2264
+    },
+    {
+      "path": "results/independent/reachable_process_manifest.csv",
+      "sha256": "999778bf74dfe58165f695d239eec0a8360f99fa613f24f5d486567d7a201211",
+      "bytes": 218121
+    },
+    {
+      "path": "results/independent/report.html",
+      "sha256": "c12595adf26c32d2407a8e2e4d686cd77454cc3e0c2cd7970cb018121781ee62",
+      "bytes": 10705
+    },
+    {
+      "path": "results/independent/search_candidates.csv",
+      "sha256": "c5bfd09dc417ab9823f7f4d547b6d451d97692c38f74c7612e4a6483f004cd6d",
+      "bytes": 673928
+    },
+    {
+      "path": "results/independent/search_log.csv",
+      "sha256": "eb1ea5a9afcb451036456c4d34592a77d01892e82ac9d54c605916dae00bfe40",
+      "bytes": 4147
+    },
+    {
+      "path": "results/independent/summary.json",
+      "sha256": "0b8110bdc3a87f0b9eee25c702ea7925db3b5074c47bd7d1a3c5f9e0b6fab63e",
+      "bytes": 1729
+    },
+    {
+      "path": "results/independent/supplier_closure.csv",
+      "sha256": "b99af123d9686148d743870c1c6fa23f973d43ed62fc550e09043e70c72c3146",
+      "bytes": 595
+    },
+    {
+      "path": "results/independent/supplier_links.csv",
+      "sha256": "ba01c68b112c8d84b6523f65925a2b6f4249052adb8636f49393cb13c224c329",
+      "bytes": 2821138
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "database": "U.S. Life Cycle Inventory Database (USLCI)",
+  "release": "1.2026-09.0",
+  "release_evidence_url": "https://github.com/FLCAC-admin/uslci-content/blob/dev/docs/release_info/press-release.md",
+  "repository_revision": "fddfc1a7a6c93e1a71f457446df7813245c828e6",
+  "download_descriptor": "repository_National_Renewable_Energy_Laboratory@USLCI_Database_Public@fddfc1a7a6c93e1a71f457446df7813245c828e6",
+  "bytes": 32056606,
+  "sha256": "d1b354d11b757efecd8f456077744e83b9c74b4df0d99e18256bdd0335ac5009",
+  "retrieved_date": "2026-10-08",
+  "source_url": "https://www.lcacommons.gov/lca-collaboration/National_Renewable_Energy_Laboratory/USLCI_Database_Public/datasets",
+  "format": "openLCA JSON-LD ZIP",
+  "expected_local_path": "data/raw/uslci-1.2026-09.0.jsonld.zip",
+  "distribution": "Raw third-party archive is not bundled. Public retrieval instructions and cryptographic hashes are supplied.",
+  "release_note": "Release label from official release documentation; repository revision and byte hash pin the actually downloaded snapshot. Release year is not each process reference year."
+}
