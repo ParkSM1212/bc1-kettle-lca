@@ -1,0 +1,13 @@
+parameter,value,unit,status,evidence,consequence
+Manufacturing yield by material,unknown,fraction,unknown,No manufacturing inventory supplied,Purchased mass and scrap cannot be calculated
+Plastic injection molding,unknown,kg processed,unknown,No forming process or energy data supplied,Do not treat resin production as a finished component
+Metal forming,unknown,kg processed,unknown,No forming process or energy data supplied,Finished metal conversion burden unresolved
+LDPE film conversion,unknown,kg film,unknown,BOM describes finished foil; extrusion inventory absent,Resin alone does not cover film production
+Cardboard conversion,unknown,kg packaging,unknown,Board type and converting inventory absent,Box manufacture may be additional
+Assembly electricity,unknown,kWh per kettle,unknown,No factory meter or engineering estimate supplied,Assembly contribution unresolved
+Inbound transport,unknown,t km per kettle,unknown,Supplier locations and distances absent,Transport contribution unresolved
+Scrap treatment and credits,unknown,kg per kettle,unknown,Yields and recovery route absent,No credit applied; scrap burden unresolved
+Material purchase prices,not applicable,currency per kg,not applicable,No monetary proxy selected,No EEIO or monetary calculation
+Yield illustration 1,1.00,fraction,assumed,Deterministic illustration only; not baseline,Shows theoretical minimum purchased mass
+Yield illustration 2,0.98,fraction,assumed,Deterministic illustration only; not baseline,Mass sensitivity only; not a confidence bound
+Yield illustration 3,0.95,fraction,assumed,Deterministic illustration only; not baseline,Mass sensitivity only; not a confidence bound

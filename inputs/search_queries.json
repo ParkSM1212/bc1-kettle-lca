@@ -1,0 +1,18 @@
+{
+  "Stainless steel": ["stainless", "steel"],
+  "Brass": ["brass", "copper", "zinc"],
+  "Copper": ["copper"],
+  "Polypropylene (PP)": ["polypropylene"],
+  "Polyvinyl chloride (PVC)": ["polyvinyl", "vinyl chloride"],
+  "Nylon, grade unspecified": ["nylon", "polyamide"],
+  "Polyoxymethylene (POM)": ["polyoxymethylene", "polyacetal", "acetal", "formaldehyde"],
+  "Polycarbonate (PC)": ["polycarbonate"],
+  "Acrylonitrile-butadiene-styrene (ABS)": ["acrylonitrile", "butadiene", "ABS resin"],
+  "Silicone": ["silicone", "siloxane", "silicon"],
+  "LDPE packaging foil": ["polyethylene", "LDPE", "film extrusion"],
+  "Cardboard packaging": ["cardboard", "corrugated", "paperboard", "containerboard", "kraft"],
+  "Conversion services": ["injection mold", "extrusion", "stamping", "rolling", "casting"],
+  "Assembly electricity": ["electricity", "grid mix"],
+  "Transport": ["transport", "truck", "rail"],
+  "Scrap treatment": ["scrap", "recycling"]
+}

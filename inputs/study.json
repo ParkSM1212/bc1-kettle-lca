@@ -1,0 +1,21 @@
+{
+  "run_id": "bc1-uslci-independent-20261008",
+  "study_date": "2026-10-08",
+  "timezone": "Asia/Seoul",
+  "declared_unit": "One manufactured and packaged BC1 1 L plastic electric kettle at the factory gate",
+  "public_alias": "ParkSM1212",
+  "repository_url": "https://github.com/ParkSM1212/bc1-kettle-lca",
+  "manufacturing_geography": "unknown",
+  "background_scenario": "USLCI United States background, approved by user",
+  "production_reference_year": null,
+  "expected_mass_g": {
+    "Kettle": 723,
+    "Packaging": 137.8
+  },
+  "boundary": "cradle-to-factory-gate including packaging",
+  "use_phase": "excluded",
+  "end_of_life": "excluded",
+  "cutoff_rule": "No intentional material cutoff; unavailable contributions remain unresolved, not zero.",
+  "characterization_method": null,
+  "revision_of": null
+}

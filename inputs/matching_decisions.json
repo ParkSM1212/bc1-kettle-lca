@@ -1,0 +1,74 @@
+{
+  "Stainless steel": {
+    "candidate_uuid": "49f5324b-fc33-36e9-b5af-3c80d73492bd",
+    "decision": "material_candidate_only",
+    "rationale": "304 flat rolled coil is a possible feedstock proxy. BOM specifies neither alloy nor product form. Dataset already includes steelmaking and rolling; kettle component forming remains unknown. No impact factor accepted.",
+    "alternatives": "8560388b-7ea1-38b7-befc-fd25d5deb450 (quarto plate, alternative form); 34897ebd-aa3d-347c-91ee-876c3f835fdb (scrap, not finished steel)"
+  },
+  "Brass": {
+    "candidate_uuid": null,
+    "decision": "unresolved",
+    "rationale": "No brass process name found in complete archive scan. Copper plus zinc would require a documented alloy composition, alloying energy and suppliers; none supplied.",
+    "alternatives": "Copper and zinc keyword results are upstream ingredients, not a brass alloy inventory."
+  },
+  "Copper": {
+    "candidate_uuid": "6373ec73-ca57-47bd-8284-2f3cc25b8637",
+    "decision": "monetary_bridge_not_accepted",
+    "rationale": "Bridge converts 1 kg regional-storage copper to 9.13 USD (2012 producer price) of Copper, gold and silver concentrates. This broad mining-sector bridge is not a physical refined-copper LCI factor; USEEIO supplier and price/sector relevance require review.",
+    "alternatives": "f0810c41-81cd-3dea-83b2-7a66c7fd9362 is copper sulfate, not copper metal."
+  },
+  "Polypropylene (PP)": {
+    "candidate_uuid": "2e8facf6-46aa-4ddb-95de-a4e2a00eb2bb",
+    "decision": "material_candidate_only",
+    "rationale": "Virgin PP resin matches polymer but recycled content, additives and molding are unknown. Resin is gate-to-gate and requires upstream links. No impact factor accepted.",
+    "alternatives": "185648c2-334e-419c-bf16-bb95e258f6bb (recycled PP, recycled share unknown); 89a2b59a-1ca2-34f5-acc8-a8eaaa6fa870 (molded PP product already includes 1.034 kg resin, 6.444 MJ electricity and 0.1 kg corrugated packaging per 1 kg part; do not add full resin burden again)"
+  },
+  "Polyvinyl chloride (PVC)": {
+    "candidate_uuid": "3dbccdda-2014-4239-ad1f-4e15c034942b",
+    "decision": "material_candidate_only",
+    "rationale": "Suspension-grade PVC resin is a polymer candidate; plasticizers, compounding and component forming are not known. Dataset includes incoming transport within its own resin boundary, which must not be counted again.",
+    "alternatives": "PVC landfill dataset excluded from factory-gate boundary; polyvinylfluoride is a different polymer."
+  },
+  "Nylon, grade unspecified": {
+    "candidate_uuid": "a2174501-418e-4b2e-9dbd-fa81f5f0bcc7",
+    "decision": "monetary_bridge_not_accepted",
+    "rationale": "Nylon 6 bridge is retained for inspection only; no nylon grade chosen. Both nylon 6 and nylon 66 bridge to a broad Plastics monetary sector. Grade, provider and proxy validity unresolved.",
+    "alternatives": "052c051b-b37f-4f00-9fe8-f5b2764b69c1 (Nylon 66 bridge); no physical nylon process found under nylon/polyamide names."
+  },
+  "Polyoxymethylene (POM)": {
+    "candidate_uuid": null,
+    "decision": "unresolved",
+    "rationale": "No POM/polyoxymethylene/polyacetal process name found. Formaldehyde is a potential feedstock, not a complete polymer-production dataset.",
+    "alternatives": "No unrelated plastic or formaldehyde process accepted as a substitute."
+  },
+  "Polycarbonate (PC)": {
+    "candidate_uuid": "531f7547-3175-4114-842a-cf358fb4a10b",
+    "decision": "monetary_bridge_not_accepted",
+    "rationale": "PC bridge converts 1 kg to 6.970610088 USD (2012 producer price) of Plastics. Broad monetary-sector substitution has not been validated, and external supplier inventory is absent.",
+    "alternatives": "No physical PC polymer-production process found by name in the pinned archive."
+  },
+  "Acrylonitrile-butadiene-styrene (ABS)": {
+    "candidate_uuid": "0e42a306-ee2d-362e-8bc3-580000096459",
+    "decision": "material_candidate_only",
+    "rationale": "ABS copolymer resin matches polymer class. Kettle-grade formulation and molding unknown. Explicit exchanges govern linking; description alone is not a cumulative emission factor.",
+    "alternatives": "Acrylonitrile monomer and PAN are not ABS resin."
+  },
+  "Silicone": {
+    "candidate_uuid": null,
+    "decision": "unresolved",
+    "rationale": "No silicone/siloxane production process name found. Silicone elastomer is not silicon metal or silica. Grade and curing process are unknown.",
+    "alternatives": "Silicon keyword matches excluded as a chemically different material."
+  },
+  "LDPE packaging foil": {
+    "candidate_uuid": "6a12cba1-889d-4515-90f8-89feb8d662f2",
+    "decision": "material_candidate_only",
+    "rationale": "LDPE virgin resin matches the named polymer but does not cover finished film extrusion and loss. No conversion burden accepted.",
+    "alternatives": "26f39b7c-389c-4903-8f09-6ef5e95876cc (LLDPE stretch film, different polymer and an embedded 2% loss assumption; not silently substituted)"
+  },
+  "Cardboard packaging": {
+    "candidate_uuid": "226ed3c2-e020-4c95-b1fc-4559fc2d18ac",
+    "decision": "material_candidate_only",
+    "rationale": "Average corrugated product is a conditional proxy because board construction and recycled share were not supplied. It already covers corrugator/sheet-plant activity; avoid adding the same conversion again.",
+    "alternatives": "9c10be0f-e38e-4551-b8b5-eef65fa27dcc (100% recycled corrugated product); solid board would require a different selection."
+  }
+}
