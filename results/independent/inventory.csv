@@ -1,0 +1,13 @@
+﻿material,scope,finished_mass_g,finished_mass_kg,share_of_packaged_mass_pct,purchase_mass_kg,purchase_status
+Stainless steel,Kettle,186,0.186,21.607806691449813,,unknown_yield
+Brass,Kettle,20.25,0.02025,2.3524628252788102,,unknown_yield
+Copper,Kettle,15,0.015,1.7425650557620818,,unknown_yield
+Polypropylene (PP),Kettle,350.25,0.35025,40.68889405204461,,unknown_yield
+Polyvinyl chloride (PVC),Kettle,43.5,0.0435,5.053438661710037,,unknown_yield
+"Nylon, grade unspecified",Kettle,49.5,0.0495,5.75046468401487,,unknown_yield
+Polyoxymethylene (POM),Kettle,9.75,0.00975,1.132667286245353,,unknown_yield
+Polycarbonate (PC),Kettle,6.75,0.00675,0.7841542750929368,,unknown_yield
+Acrylonitrile-butadiene-styrene (ABS),Kettle,30,0.03,3.4851301115241635,,unknown_yield
+Silicone,Kettle,12,0.012,1.3940520446096654,,unknown_yield
+LDPE packaging foil,Packaging,6.3,0.0063,0.7318773234200744,,unknown_yield
+Cardboard packaging,Packaging,131.5,0.1315,15.276486988847584,,unknown_yield

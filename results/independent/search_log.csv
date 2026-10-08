@@ -1,0 +1,43 @@
+﻿input,query,search_field,match_mode,hits,catalog_process_count,status
+Stainless steel,stainless,process.name,case-insensitive substring,3,1434,complete_local_scan
+Stainless steel,steel,process.name,case-insensitive substring,21,1434,complete_local_scan
+Brass,brass,process.name,case-insensitive substring,0,1434,complete_local_scan
+Brass,copper,process.name,case-insensitive substring,2,1434,complete_local_scan
+Brass,zinc,process.name,case-insensitive substring,2,1434,complete_local_scan
+Copper,copper,process.name,case-insensitive substring,2,1434,complete_local_scan
+Polypropylene (PP),polypropylene,process.name,case-insensitive substring,4,1434,complete_local_scan
+Polyvinyl chloride (PVC),polyvinyl,process.name,case-insensitive substring,3,1434,complete_local_scan
+Polyvinyl chloride (PVC),vinyl chloride,process.name,case-insensitive substring,3,1434,complete_local_scan
+"Nylon, grade unspecified",nylon,process.name,case-insensitive substring,2,1434,complete_local_scan
+"Nylon, grade unspecified",polyamide,process.name,case-insensitive substring,0,1434,complete_local_scan
+Polyoxymethylene (POM),polyoxymethylene,process.name,case-insensitive substring,0,1434,complete_local_scan
+Polyoxymethylene (POM),polyacetal,process.name,case-insensitive substring,0,1434,complete_local_scan
+Polyoxymethylene (POM),acetal,process.name,case-insensitive substring,0,1434,complete_local_scan
+Polyoxymethylene (POM),formaldehyde,process.name,case-insensitive substring,9,1434,complete_local_scan
+Polycarbonate (PC),polycarbonate,process.name,case-insensitive substring,1,1434,complete_local_scan
+Acrylonitrile-butadiene-styrene (ABS),acrylonitrile,process.name,case-insensitive substring,3,1434,complete_local_scan
+Acrylonitrile-butadiene-styrene (ABS),butadiene,process.name,case-insensitive substring,7,1434,complete_local_scan
+Acrylonitrile-butadiene-styrene (ABS),ABS resin,process.name,case-insensitive substring,0,1434,complete_local_scan
+Silicone,silicone,process.name,case-insensitive substring,0,1434,complete_local_scan
+Silicone,siloxane,process.name,case-insensitive substring,0,1434,complete_local_scan
+Silicone,silicon,process.name,case-insensitive substring,0,1434,complete_local_scan
+LDPE packaging foil,polyethylene,process.name,case-insensitive substring,11,1434,complete_local_scan
+LDPE packaging foil,LDPE,process.name,case-insensitive substring,4,1434,complete_local_scan
+LDPE packaging foil,film extrusion,process.name,case-insensitive substring,0,1434,complete_local_scan
+Cardboard packaging,cardboard,process.name,case-insensitive substring,0,1434,complete_local_scan
+Cardboard packaging,corrugated,process.name,case-insensitive substring,3,1434,complete_local_scan
+Cardboard packaging,paperboard,process.name,case-insensitive substring,2,1434,complete_local_scan
+Cardboard packaging,containerboard,process.name,case-insensitive substring,2,1434,complete_local_scan
+Cardboard packaging,kraft,process.name,case-insensitive substring,4,1434,complete_local_scan
+Conversion services,injection mold,process.name,case-insensitive substring,2,1434,complete_local_scan
+Conversion services,extrusion,process.name,case-insensitive substring,2,1434,complete_local_scan
+Conversion services,stamping,process.name,case-insensitive substring,1,1434,complete_local_scan
+Conversion services,rolling,process.name,case-insensitive substring,3,1434,complete_local_scan
+Conversion services,casting,process.name,case-insensitive substring,7,1434,complete_local_scan
+Assembly electricity,electricity,process.name,case-insensitive substring,117,1434,complete_local_scan
+Assembly electricity,grid mix,process.name,case-insensitive substring,0,1434,complete_local_scan
+Transport,transport,process.name,case-insensitive substring,521,1434,complete_local_scan
+Transport,truck,process.name,case-insensitive substring,340,1434,complete_local_scan
+Transport,rail,process.name,case-insensitive substring,13,1434,complete_local_scan
+Scrap treatment,scrap,process.name,case-insensitive substring,5,1434,complete_local_scan
+Scrap treatment,recycling,process.name,case-insensitive substring,1,1434,complete_local_scan

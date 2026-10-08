@@ -1,0 +1,11 @@
+﻿check,status,detail
+mass_Kettle,pass,723.00 g; expected 723 g
+mass_Packaging,pass,137.8 g; expected 137.8 g
+archive_integrity,pass,SHA-256 matches source manifest; ZIP CRC verified
+supplier_closure,fail,See supplier_closure.csv; unique-flow links are diagnostic candidates
+reference_flow_metadata,pass,One quantitative reference per candidate root; normalization not applied to LCIA
+g_to_kg_units,pass,Decimal conversion divides every mass by 1000
+purchase_mass_balance,not_calculated,Baseline yields are unknown; illustrative scenarios are separate
+contribution_sum,not_calculated,"Missing GWP values remain null/blank, not zero"
+double_counting,unresolved,Resin/conversion boundaries and supplier allocation must be resolved before impact calculation
+characterization,not_calculated,No LCIA method or factors selected

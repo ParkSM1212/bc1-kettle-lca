@@ -1,0 +1,57 @@
+{
+  "run_id": "bc1-uslci-independent-20261008",
+  "study_date": "2026-10-08",
+  "calculation_status": "not_calculated_incomplete_inventory",
+  "gwp100_kg_CO2eq_per_packaged_kettle": null,
+  "gwp_top_three": null,
+  "mass_g": {
+    "Kettle": 723.0,
+    "Packaging": 137.8,
+    "Total": 860.8
+  },
+  "mass_top_three": [
+    "Polypropylene (PP)",
+    "Stainless steel",
+    "Cardboard packaging"
+  ],
+  "uncertainty_calculated": false,
+  "mean": null,
+  "median": null,
+  "p05": null,
+  "p95": null,
+  "python_version": "3.12.14",
+  "runtime_os": "Windows",
+  "input_bom_sha256": "3c32aae6fce473c8758a754d55ef26c0761273d846417c211c13d77488b3ff8a",
+  "archive_sha256": "d1b354d11b757efecd8f456077744e83b9c74b4df0d99e18256bdd0335ac5009",
+  "database_release": "1.2026-09.0",
+  "archive_entities": {
+    "actors": 76,
+    "currencies": 12,
+    "dq_systems": 2,
+    "flows": 5708,
+    "flow_properties": 21,
+    "locations": 314,
+    "parameters": 1,
+    "processes": 1434,
+    "sources": 477,
+    "unit_groups": 14
+  },
+  "candidate_roots": 9,
+  "unique_reachable_processes": 383,
+  "unique_provider_edge_statuses": {
+    "explicit_provider": 1254,
+    "missing_provider": 609,
+    "explicit_coproduct_allocation_required": 75,
+    "avoided_product_requires_model_choice": 15,
+    "ambiguous_provider": 17,
+    "unique_reference_flow_candidate": 5
+  },
+  "elementary_flow_count_in_candidate_graph": 2868,
+  "uncharacterized_flow_count": null,
+  "characterization_note": "Method not selected; count of uncharacterized flows cannot yet be evaluated.",
+  "mapping_status_counts": {
+    "material_candidate_only": 6,
+    "unresolved": 3,
+    "monetary_bridge_not_accepted": 3
+  }
+}

@@ -1,0 +1,10 @@
+﻿scope,assumed_uniform_yield,purchased_mass_g,scrap_mass_g,status
+Kettle,1.00,723.0,0.0,mass_illustration_only_not_baseline
+Packaging,1.00,137.8,0.0,mass_illustration_only_not_baseline
+Packaged kettle,1.00,860.8,0.0,mass_illustration_only_not_baseline
+Kettle,0.98,737.7551020408164,14.755102040816327,mass_illustration_only_not_baseline
+Packaging,0.98,140.6122448979592,2.8122448979591836,mass_illustration_only_not_baseline
+Packaged kettle,0.98,878.3673469387755,17.56734693877551,mass_illustration_only_not_baseline
+Kettle,0.95,761.0526315789474,38.05263157894737,mass_illustration_only_not_baseline
+Packaging,0.95,145.05263157894737,7.252631578947368,mass_illustration_only_not_baseline
+Packaged kettle,0.95,906.1052631578947,45.305263157894736,mass_illustration_only_not_baseline
